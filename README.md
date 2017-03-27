@@ -4,7 +4,7 @@ TableViewFoldDemo：仿 QQ 联系人界面，实现 `TableView` 的折叠效果�
 
 ## 实现效果
 
-![image]()
+![image](https://github.com/spirit-jsb/TableViewFoldDemo/blob/master/Gif/TableViewFoldDemo.gif)
 
 具体实现方法请参考 `Demo` 中的代码及注释
 
