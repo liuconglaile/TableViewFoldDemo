@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0288DF3A10A0545BC330D9 /* libPods-TableViewFoldDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A52D6EEF1A75C0EFF72EBF7 /* libPods-TableViewFoldDemo.a */; };
+		FDF989F41E89520A00960984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF989F31E89520A00960984 /* main.m */; };
+		FDF989F71E89520A00960984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF989F61E89520A00960984 /* AppDelegate.m */; };
+		FDF989FF1E89520A00960984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF989FE1E89520A00960984 /* Assets.xcassets */; };
+		FDF98A021E89520A00960984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF98A001E89520A00960984 /* LaunchScreen.storyboard */; };
+		FDF98A0A1E89528100960984 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF98A091E89528100960984 /* libz.tbd */; };
+		FDF98A3A1E8952C500960984 /* JSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A0E1E8952C500960984 /* JSBaseViewController.m */; };
+		FDF98A3B1E8952C500960984 /* NSArray+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A131E8952C500960984 /* NSArray+JSCategory.m */; };
+		FDF98A3C1E8952C500960984 /* NSData+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A161E8952C500960984 /* NSData+JSCategory.m */; };
+		FDF98A3D1E8952C500960984 /* NSDate+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A191E8952C500960984 /* NSDate+JSCategory.m */; };
+		FDF98A3E1E8952C500960984 /* NSDictionary+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A1C1E8952C500960984 /* NSDictionary+JSCategory.m */; };
+		FDF98A3F1E8952C500960984 /* NSNumber+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A1F1E8952C500960984 /* NSNumber+JSCategory.m */; };
+		FDF98A401E8952C500960984 /* NSString+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A221E8952C500960984 /* NSString+JSCategory.m */; };
+		FDF98A411E8952C500960984 /* UIApplication+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A271E8952C500960984 /* UIApplication+JSCategory.m */; };
+		FDF98A421E8952C500960984 /* UIButton+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A2A1E8952C500960984 /* UIButton+JSCategory.m */; };
+		FDF98A431E8952C500960984 /* UIColor+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A2D1E8952C500960984 /* UIColor+JSCategory.m */; };
+		FDF98A441E8952C500960984 /* UIDevice+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A301E8952C500960984 /* UIDevice+JSCategory.m */; };
+		FDF98A451E8952C500960984 /* UIImage+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A331E8952C500960984 /* UIImage+JSCategory.m */; };
+		FDF98A461E8952C500960984 /* UITextView+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A361E8952C500960984 /* UITextView+JSCategory.m */; };
+		FDF98A471E8952C500960984 /* UIView+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A391E8952C500960984 /* UIView+JSCategory.m */; };
+		FDF98A4A1E89548600960984 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A491E89548600960984 /* ContactsViewController.m */; };
+		FDF98A4D1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A4C1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.m */; };
+		FDF98A501E895A5E00960984 /* TableViewFoldCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A4F1E895A5E00960984 /* TableViewFoldCellModel.m */; };
+		FDF98A561E895CEB00960984 /* TableViewFoldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A521E895CEB00960984 /* TableViewFoldCell.m */; };
+		FDF98A571E895CEB00960984 /* TableViewFoldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF98A531E895CEB00960984 /* TableViewFoldCell.xib */; };
+		FDF98A581E895CEB00960984 /* TableViewFoldHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF98A551E895CEB00960984 /* TableViewFoldHeaderFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DACD856DE875CD1BFFB4764 /* Pods-TableViewFoldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFoldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFoldDemo/Pods-TableViewFoldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		468E2D71E477875C19C9B1B8 /* Pods-TableViewFoldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFoldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFoldDemo/Pods-TableViewFoldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A52D6EEF1A75C0EFF72EBF7 /* libPods-TableViewFoldDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewFoldDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF989EF1E89520A00960984 /* TableViewFoldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFoldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF989F31E89520A00960984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF989F51E89520A00960984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF989F61E89520A00960984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF989FE1E89520A00960984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF98A011E89520A00960984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF98A031E89520A00960984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF98A091E89528100960984 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FDF98A0D1E8952C500960984 /* JSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBaseViewController.h; sourceTree = "<group>"; };
+		FDF98A0E1E8952C500960984 /* JSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBaseViewController.m; sourceTree = "<group>"; };
+		FDF98A121E8952C500960984 /* NSArray+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A131E8952C500960984 /* NSArray+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A151E8952C500960984 /* NSData+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A161E8952C500960984 /* NSData+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A181E8952C500960984 /* NSDate+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A191E8952C500960984 /* NSDate+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A1B1E8952C500960984 /* NSDictionary+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A1C1E8952C500960984 /* NSDictionary+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A1E1E8952C500960984 /* NSNumber+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A1F1E8952C500960984 /* NSNumber+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A211E8952C500960984 /* NSString+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A221E8952C500960984 /* NSString+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A231E8952C500960984 /* JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCategory.h; sourceTree = "<group>"; };
+		FDF98A261E8952C500960984 /* UIApplication+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A271E8952C500960984 /* UIApplication+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A291E8952C500960984 /* UIButton+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A2A1E8952C500960984 /* UIButton+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A2C1E8952C500960984 /* UIColor+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A2D1E8952C500960984 /* UIColor+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A2F1E8952C500960984 /* UIDevice+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A301E8952C500960984 /* UIDevice+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A321E8952C500960984 /* UIImage+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A331E8952C500960984 /* UIImage+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A351E8952C500960984 /* UITextView+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A361E8952C500960984 /* UITextView+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A381E8952C500960984 /* UIView+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSCategory.h"; sourceTree = "<group>"; };
+		FDF98A391E8952C500960984 /* UIView+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSCategory.m"; sourceTree = "<group>"; };
+		FDF98A481E89548600960984 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		FDF98A491E89548600960984 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		FDF98A4B1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFoldHeaderFooterViewModel.h; sourceTree = "<group>"; };
+		FDF98A4C1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFoldHeaderFooterViewModel.m; sourceTree = "<group>"; };
+		FDF98A4E1E895A5E00960984 /* TableViewFoldCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFoldCellModel.h; sourceTree = "<group>"; };
+		FDF98A4F1E895A5E00960984 /* TableViewFoldCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFoldCellModel.m; sourceTree = "<group>"; };
+		FDF98A511E895CEB00960984 /* TableViewFoldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFoldCell.h; sourceTree = "<group>"; };
+		FDF98A521E895CEB00960984 /* TableViewFoldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFoldCell.m; sourceTree = "<group>"; };
+		FDF98A531E895CEB00960984 /* TableViewFoldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewFoldCell.xib; sourceTree = "<group>"; };
+		FDF98A541E895CEB00960984 /* TableViewFoldHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFoldHeaderFooterView.h; sourceTree = "<group>"; };
+		FDF98A551E895CEB00960984 /* TableViewFoldHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFoldHeaderFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF989EC1E89520A00960984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF98A0A1E89528100960984 /* libz.tbd in Frameworks */,
+				EE0288DF3A10A0545BC330D9 /* libPods-TableViewFoldDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8E8D25428E92AC6CDED504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A091E89528100960984 /* libz.tbd */,
+				7A52D6EEF1A75C0EFF72EBF7 /* libPods-TableViewFoldDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4E4B619AEF62DEE3FD5D796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DACD856DE875CD1BFFB4764 /* Pods-TableViewFoldDemo.debug.xcconfig */,
+				468E2D71E477875C19C9B1B8 /* Pods-TableViewFoldDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDF989E61E89520A00960984 = {
+			isa = PBXGroup;
+			children = (
+				FDF989F11E89520A00960984 /* TableViewFoldDemo */,
+				FDF989F01E89520A00960984 /* Products */,
+				F4E4B619AEF62DEE3FD5D796 /* Pods */,
+				3F8E8D25428E92AC6CDED504 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF989F01E89520A00960984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF989EF1E89520A00960984 /* TableViewFoldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF989F11E89520A00960984 /* TableViewFoldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDF989F51E89520A00960984 /* AppDelegate.h */,
+				FDF989F61E89520A00960984 /* AppDelegate.m */,
+				FDF98A481E89548600960984 /* ContactsViewController.h */,
+				FDF98A491E89548600960984 /* ContactsViewController.m */,
+				FDF98A4E1E895A5E00960984 /* TableViewFoldCellModel.h */,
+				FDF98A4F1E895A5E00960984 /* TableViewFoldCellModel.m */,
+				FDF98A4B1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.h */,
+				FDF98A4C1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.m */,
+				FDF98A511E895CEB00960984 /* TableViewFoldCell.h */,
+				FDF98A521E895CEB00960984 /* TableViewFoldCell.m */,
+				FDF98A531E895CEB00960984 /* TableViewFoldCell.xib */,
+				FDF98A541E895CEB00960984 /* TableViewFoldHeaderFooterView.h */,
+				FDF98A551E895CEB00960984 /* TableViewFoldHeaderFooterView.m */,
+				FDF989FE1E89520A00960984 /* Assets.xcassets */,
+				FDF98A001E89520A00960984 /* LaunchScreen.storyboard */,
+				FDF98A031E89520A00960984 /* Info.plist */,
+				FDF98A0B1E8952C500960984 /* Library */,
+				FDF989F21E89520A00960984 /* Supporting Files */,
+			);
+			path = TableViewFoldDemo;
+			sourceTree = "<group>";
+		};
+		FDF989F21E89520A00960984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF989F31E89520A00960984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF98A0B1E8952C500960984 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A0C1E8952C500960984 /* JSBaseViewController */,
+				FDF98A0F1E8952C500960984 /* JSCategory */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FDF98A0C1E8952C500960984 /* JSBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A0D1E8952C500960984 /* JSBaseViewController.h */,
+				FDF98A0E1E8952C500960984 /* JSBaseViewController.m */,
+			);
+			path = JSBaseViewController;
+			sourceTree = "<group>";
+		};
+		FDF98A0F1E8952C500960984 /* JSCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A101E8952C500960984 /* Foundation */,
+				FDF98A231E8952C500960984 /* JSCategory.h */,
+				FDF98A241E8952C500960984 /* UIKit */,
+			);
+			path = JSCategory;
+			sourceTree = "<group>";
+		};
+		FDF98A101E8952C500960984 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A111E8952C500960984 /* NSArray */,
+				FDF98A141E8952C500960984 /* NSData */,
+				FDF98A171E8952C500960984 /* NSDate */,
+				FDF98A1A1E8952C500960984 /* NSDictionary */,
+				FDF98A1D1E8952C500960984 /* NSNumber */,
+				FDF98A201E8952C500960984 /* NSString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FDF98A111E8952C500960984 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A121E8952C500960984 /* NSArray+JSCategory.h */,
+				FDF98A131E8952C500960984 /* NSArray+JSCategory.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		FDF98A141E8952C500960984 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A151E8952C500960984 /* NSData+JSCategory.h */,
+				FDF98A161E8952C500960984 /* NSData+JSCategory.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		FDF98A171E8952C500960984 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A181E8952C500960984 /* NSDate+JSCategory.h */,
+				FDF98A191E8952C500960984 /* NSDate+JSCategory.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		FDF98A1A1E8952C500960984 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A1B1E8952C500960984 /* NSDictionary+JSCategory.h */,
+				FDF98A1C1E8952C500960984 /* NSDictionary+JSCategory.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		FDF98A1D1E8952C500960984 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A1E1E8952C500960984 /* NSNumber+JSCategory.h */,
+				FDF98A1F1E8952C500960984 /* NSNumber+JSCategory.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		FDF98A201E8952C500960984 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A211E8952C500960984 /* NSString+JSCategory.h */,
+				FDF98A221E8952C500960984 /* NSString+JSCategory.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FDF98A241E8952C500960984 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A251E8952C500960984 /* UIApplication */,
+				FDF98A281E8952C500960984 /* UIButton */,
+				FDF98A2B1E8952C500960984 /* UIColor */,
+				FDF98A2E1E8952C500960984 /* UIDevice */,
+				FDF98A311E8952C500960984 /* UIImage */,
+				FDF98A341E8952C500960984 /* UITextView */,
+				FDF98A371E8952C500960984 /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FDF98A251E8952C500960984 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A261E8952C500960984 /* UIApplication+JSCategory.h */,
+				FDF98A271E8952C500960984 /* UIApplication+JSCategory.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		FDF98A281E8952C500960984 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A291E8952C500960984 /* UIButton+JSCategory.h */,
+				FDF98A2A1E8952C500960984 /* UIButton+JSCategory.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		FDF98A2B1E8952C500960984 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A2C1E8952C500960984 /* UIColor+JSCategory.h */,
+				FDF98A2D1E8952C500960984 /* UIColor+JSCategory.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		FDF98A2E1E8952C500960984 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A2F1E8952C500960984 /* UIDevice+JSCategory.h */,
+				FDF98A301E8952C500960984 /* UIDevice+JSCategory.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		FDF98A311E8952C500960984 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A321E8952C500960984 /* UIImage+JSCategory.h */,
+				FDF98A331E8952C500960984 /* UIImage+JSCategory.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		FDF98A341E8952C500960984 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A351E8952C500960984 /* UITextView+JSCategory.h */,
+				FDF98A361E8952C500960984 /* UITextView+JSCategory.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		FDF98A371E8952C500960984 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				FDF98A381E8952C500960984 /* UIView+JSCategory.h */,
+				FDF98A391E8952C500960984 /* UIView+JSCategory.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF989EE1E89520A00960984 /* TableViewFoldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF98A061E89520A00960984 /* Build configuration list for PBXNativeTarget "TableViewFoldDemo" */;
+			buildPhases = (
+				963C0F134342DB1AD72F1A67 /* [CP] Check Pods Manifest.lock */,
+				FDF989EB1E89520A00960984 /* Sources */,
+				FDF989EC1E89520A00960984 /* Frameworks */,
+				FDF989ED1E89520A00960984 /* Resources */,
+				8FC2CA02F115CDBE6809A1F4 /* [CP] Embed Pods Frameworks */,
+				4C18B6A7A5F808C27C0D1202 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewFoldDemo;
+			productName = TableViewFoldDemo;
+			productReference = FDF989EF1E89520A00960984 /* TableViewFoldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF989E71E89520A00960984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "菅思博";
+				TargetAttributes = {
+					FDF989EE1E89520A00960984 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDF989EA1E89520A00960984 /* Build configuration list for PBXProject "TableViewFoldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF989E61E89520A00960984;
+			productRefGroup = FDF989F01E89520A00960984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF989EE1E89520A00960984 /* TableViewFoldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF989ED1E89520A00960984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF98A021E89520A00960984 /* LaunchScreen.storyboard in Resources */,
+				FDF98A571E895CEB00960984 /* TableViewFoldCell.xib in Resources */,
+				FDF989FF1E89520A00960984 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C18B6A7A5F808C27C0D1202 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewFoldDemo/Pods-TableViewFoldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC2CA02F115CDBE6809A1F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewFoldDemo/Pods-TableViewFoldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963C0F134342DB1AD72F1A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF989EB1E89520A00960984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF98A501E895A5E00960984 /* TableViewFoldCellModel.m in Sources */,
+				FDF98A3F1E8952C500960984 /* NSNumber+JSCategory.m in Sources */,
+				FDF98A3E1E8952C500960984 /* NSDictionary+JSCategory.m in Sources */,
+				FDF98A441E8952C500960984 /* UIDevice+JSCategory.m in Sources */,
+				FDF98A431E8952C500960984 /* UIColor+JSCategory.m in Sources */,
+				FDF98A561E895CEB00960984 /* TableViewFoldCell.m in Sources */,
+				FDF98A581E895CEB00960984 /* TableViewFoldHeaderFooterView.m in Sources */,
+				FDF98A3A1E8952C500960984 /* JSBaseViewController.m in Sources */,
+				FDF98A4D1E8959B900960984 /* TableViewFoldHeaderFooterViewModel.m in Sources */,
+				FDF98A411E8952C500960984 /* UIApplication+JSCategory.m in Sources */,
+				FDF98A451E8952C500960984 /* UIImage+JSCategory.m in Sources */,
+				FDF98A3B1E8952C500960984 /* NSArray+JSCategory.m in Sources */,
+				FDF989F71E89520A00960984 /* AppDelegate.m in Sources */,
+				FDF98A401E8952C500960984 /* NSString+JSCategory.m in Sources */,
+				FDF98A3C1E8952C500960984 /* NSData+JSCategory.m in Sources */,
+				FDF989F41E89520A00960984 /* main.m in Sources */,
+				FDF98A461E8952C500960984 /* UITextView+JSCategory.m in Sources */,
+				FDF98A4A1E89548600960984 /* ContactsViewController.m in Sources */,
+				FDF98A471E8952C500960984 /* UIView+JSCategory.m in Sources */,
+				FDF98A421E8952C500960984 /* UIButton+JSCategory.m in Sources */,
+				FDF98A3D1E8952C500960984 /* NSDate+JSCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF98A001E89520A00960984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF98A011E89520A00960984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF98A041E89520A00960984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF98A051E89520A00960984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF98A071E89520A00960984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DACD856DE875CD1BFFB4764 /* Pods-TableViewFoldDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewFoldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.TableViewFoldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDF98A081E89520A00960984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468E2D71E477875C19C9B1B8 /* Pods-TableViewFoldDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewFoldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.TableViewFoldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF989EA1E89520A00960984 /* Build configuration list for PBXProject "TableViewFoldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF98A041E89520A00960984 /* Debug */,
+				FDF98A051E89520A00960984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF98A061E89520A00960984 /* Build configuration list for PBXNativeTarget "TableViewFoldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF98A071E89520A00960984 /* Debug */,
+				FDF98A081E89520A00960984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF989E71E89520A00960984 /* Project object */;
+}
